@@ -1,8 +1,7 @@
 
-
 # IBM Client Developer Advocacy App Modernization Series
 
-## Lab - Migrating Legacy JEE apps to IBM Cloud Private
+## Lab - Automated updates of containerized applications from SCM commits
 
 ### Creating a CI/CD Pipeline for deployment to IBM Cloud Private using Jenkins
 
