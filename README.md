@@ -1,8 +1,6 @@
-
-
 # IBM Client Developer Advocacy App Modernization Series
 
-## Lab - Migrating Legacy JEE apps to IBM Cloud Private
+## Lab - Automated updates of containerized applications from SCM commits
 
 ### Creating a CI/CD Pipeline for deployment to IBM Cloud Private using Jenkins
 
@@ -55,9 +53,9 @@ More details of this pipeline can be found in the [Jenkinsfile](https://raw.gith
 
 6.  For **Repository URL** enter the url to the cloned repository that you forked earlier (i.e. `https://github.com/[your username]/app-modernization-plants-by-websphere-jee6.git`)
 
-7.  Verify that the  **Script Path** is set to `Jenkinsfile`
+7.  Verify that the  **Script Path** is set to `Jenkinsfile.ext-icp`
 
-    ![pipeline config](images/ss3.png)
+    ![pipeline config](images/ss3-ext.png)
 
 8. Click **Save**.
 
