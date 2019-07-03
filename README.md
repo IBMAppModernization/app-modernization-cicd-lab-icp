@@ -16,7 +16,12 @@ If you haven't already:
 
 1.  Complete *Working with Helm*  by following the instructions [here](https://github.com/IBMAppModernization/app-modernization-helm-lab-icp)
 
-2.  If following this lab as part of an IBM instructor led workshop, login into your terminal with the credentials provided to you
+2.  If following this lab as part of an IBM instructor led workshop, login into your terminal with the credentials provided to you and complete all environment setup steps. Check your environment with these commands (all should have output):
+
+    ```text
+    echo $CLUSTER_URL
+    echo $USERNAME
+    ```
 
 3.  Login to your designated ICP instance from the command line
 
@@ -35,7 +40,7 @@ In this section we will be connecting our cloned Git repo of [this app](https://
   | Push Docker Image to Registry | Uploads the Docker image to the Docker image registry within ICP               |
   | Deploy New Docker Image       | Updates the image tag in the Kubernetes deployment triggering a rolling update |
 
-More details of this pipeline can be found in the [Jenkinsfile](https://raw.githubusercontent.com/IBMAppModernization/app-modernization-plants-by-websphere-jee6/master/Jenkinsfile).
+More details of this pipeline can be found in the [Jenkinsfile](https://raw.githubusercontent.com/IBMAppModernization/app-modernization-plants-by-websphere-jee6/master/Jenkinsfile.ext-icp).
 
 1.  Log into Jenkins using the URL provided to you by your instructor with the credentials provided to you
 
